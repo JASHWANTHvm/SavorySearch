@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Food Web App</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ebdfdf;
+      background-image: url('https://img.freepik.com/premium-photo/dark-background-with-border-spices-herbs-citrus-slice_1352884-16409.jpg?w=740');
+      background-size: cover; /* Makes the background image cover the entire container */
+      background-repeat: no-repeat; /* Prevents the background image from repeating */
+      background-position: center; /* Centers the background image */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background-color: rgb(151, 143, 143);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .auth-links {
+      margin-top: 20px;
+    }
+    .rounded-image {
+      width: 100px; 
+      height: 100px; 
+      border-radius: 50%; 
+      object-fit: cover; 
+  }
+  
+    .auth-links a {
+      text-decoration: none;
+      color: white;
+      background-color: #007bff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin: 0 10px;
+      display: inline-block;
+    }
+    .auth-links a:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="burger-category.png" alt="Avatar" class="rounded-image">
+    <h1>Welcome to the Food Api</h1>
+    <div class="auth-links">
+      <a href="login.html">Login</a>
+      <a href="register.html">Sign Up</a>
+    </div>
+  </div>
+</body>
+</html>
