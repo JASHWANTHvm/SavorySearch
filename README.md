@@ -1,4 +1,4 @@
-# Full-Stack-Mini-Project
+# SavorySearch
 
 # Project Domain : 
 - The project is a recipe finder application that helps
